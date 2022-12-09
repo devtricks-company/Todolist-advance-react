@@ -7,4 +7,5 @@ export const PageContainer = styled.div<PageType>`
   justify-content: ${(props) => props.justifyContent};
   align-items: ${(props) => props.alignItems};
   min-height: 100vh;
+  padding: 50px;
 `;
